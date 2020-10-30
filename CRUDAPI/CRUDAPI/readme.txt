@@ -29,8 +29,9 @@ npm install --save @angular/cdk@7.2.0
 npm install --save @angular/http@7.0.0 
 
 //open powershell in administrativ mode
-//allow powershell scripts to be run
 Start-Process powershell -Verb runAs
+
+//allow powershell scripts to be run
 Set-ExecutionPolicy Unrestricted
 
 -------------------SWAGGER----------------------
